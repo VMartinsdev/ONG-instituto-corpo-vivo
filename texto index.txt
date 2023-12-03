@@ -1,0 +1,29 @@
+<main>
+        <section>
+            <h1>
+                Idealizado por Samuel Schot, o Instituto corpo vivo foi criado com o intuito de ajudar moradores de rua e pessoas em situação de pobreza.
+            </h1>
+            <p>
+                Samuel e seu grupo vem realizando diversas ações em prol da comunidade, como doações de alimentos, oração e reuniões para usuários de droga abandonarem seus vícios e melhorarem de vida.
+            </p>
+            <p>
+                Você pode encontrar um pouco mais sobre nossas ações na nossa aba de <a href="projetos.html">projetos</a>
+            </p>
+            <button class="btnApoia" type="submit"><a href="#doacao">Seja um apoiador</a></button>
+        </section>
+        <section class="simbolo">
+            <a href="" ><img class="imgSimbolo" src="imagens/simbol.png" alt="Simbolo do Whatsapp"></a>
+        </section>
+    </main>
+
+    .selecionado {
+    color: #000000;;
+    font-weight: 600;
+    border-bottom: 5px solid #000000;
+    padding: 0 0.10rem 1.6rem 0.10rem;
+    font-size: 19px;
+}
+ {
+    text-decoration: none;
+    color:#B1B1B1;
+}
