@@ -9,92 +9,37 @@
     src: url('fonts/league-spartan.woff2') format('woff2'),
          url('fonts/league-spartan.woff') format('woff');
   }
-
-body{
-    background-image: url(./formaOrganica.png);
-    background-size: cover;
-    background-position: center;
-    font-family: "Poppins Medium", sans-serif;
-    font-size: 13px;
+nav img{
+    margin-right: 50px;
 }
 nav{
+    padding: 10px;
     text-align: center;
-    box-sizing: border-box;
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
-    height: 100px;
-   
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.323);
+    height: 80px;
 }
 nav > a{
-    margin: 20px;
+    margin-right: 20px;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.257);
     font-family: 'League Spartan';
     font-weight: bold;
     font-size: 15px;
+    transition-duration: 1s;
 }
 .selecionado{
     color: black;
     font-size: 20px;
 }
-
-
-
-main{
-    margin-top: 80px;
-    height: 525px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-around;
-    width: 100%;
+nav a:hover{
+    color: black;
+    font-size: 20px;
+    transition-duration: 1s;
 }
-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-.txt1{
-    height: auto;
-    width: 48rem;
-    font-family: 'League Spartan', sans-serif;
-    font-size: 2rem;
-    font-weight: 900;
-    margin-bottom: 0.5rem;
-
-}
-.txt2{
-    width: 20rem;
-    margin-bottom: 1rem;
-    font-family: 'Poppins';
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-.btnApoia{
-    width: 11rem;
-    border-radius: 20px;
-    border: none;
-    padding: 0.5rem;
-    background-color: #E43438;
-}
-
-.btnApoia a{
-    color: white !important;
-}
-
-.btnApoia:hover{
-    background-color: #F0C840;
-}
-
-.simbolo{
-    width: 100%;
-    display: flex;
-    align-items: end;
-}
-.imgSimbolo{
-    height: 5rem;
-    width: auto;
- 
+nav:hover > .selecionado{
+    color: rgba(0, 0, 0, 0.257);
+    font-family: 'League Spartan';
+    font-weight: bold;
+    font-size: 15px;
+    transition-duration: 1s;
 }
