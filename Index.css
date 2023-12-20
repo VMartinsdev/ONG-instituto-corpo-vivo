@@ -1,10 +1,15 @@
 * {
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
 :root{
-    --font-titulo: 'Poppins';
+    --font-titulo: 'Bebas Neue', sans-serif, bold;
     --font-texto: 'League Spartan';
+    --back_ground_color:#90f094;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 @font-face {
@@ -50,25 +55,30 @@ h1{
     text-align: center;
     margin: auto;
     font-family: var(--font-titulo);
-    font-weight: 900;
     font-size: 2em;
     padding: 30px;
     height: auto;
 }
 p{
-    font-family: 'League Spartan';
+    font-family: var(--font-texto);
     font-size: 1.5em;
     padding: 20px;
     height: auto;
+
 }
 main{
     max-width: 600px;
-    min-width: 300px;
+    min-width: 250px;
+    height: auto;
     margin: auto;
+    background-color: #90f094;
 }
-.titulo{
-    border-radius: 10px;
-    max-width: 500px;
+footer{
     margin: auto;
-    margin-top: 10px;
+    height: 50px;
+    background-color: #aeffb2b9;
+}
+#dev{
+    text-align: center;
+    
 }
