@@ -89,13 +89,19 @@ section > img{
     margin-left: 2em;
 
 }
-.seta{
+.seta-esq{
+    max-width: 39px;
+    min-width: 25px;
+    margin-bottom: 8em;
+    margin-left: 6em;
+    box-shadow: none;
+}
+.seta-dir{
     max-width: 39px;
     min-width: 25px;
     margin-bottom: 8em;
     box-shadow: none;
 }
-
 footer{
     background-color: #aeffb2b9;
     font-size: 0.8em;
